@@ -30,8 +30,15 @@ Frontend will run on:http://localhost:5173
 
 ## Dependencies Installation
 
-npm install express mongoose cors dotenv jsonwebtoken bcrypt-->backend dependencies
-npm install axios react-router-dom react-icons--> frontend dependencies
+1. npm install express mongoose cors dotenv jsonwebtoken bcrypt-->backend dependencies
+2. npm install axios react-router-dom react-icons--> frontend dependencies
+
+## Environment Variables
+
+Create a .env file inside the backend folder and add:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
 
 ## Project Overview
 
