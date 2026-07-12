@@ -36,9 +36,9 @@ Frontend will run on:http://localhost:5173
 ## Environment Variables
 
 Create a .env file inside the backend folder and add:
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+1. PORT=5000
+2. MONGO_URI=your_mongodb_connection_string
+3. JWT_SECRET=your_secret_key
 
 ## Project Overview
 
